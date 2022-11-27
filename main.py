@@ -1,7 +1,10 @@
-wallet = 40
+user_text = input("Enter text: ")
 
-wallet -= 8 #I bought some food
+user_choice = input("Enter 1 for uppercase and 2 for lowercase: ")
 
-wallet += 40 #payday
-
-# This is a comment
+if user_choice == "1":
+  print(user_text.upper())
+elif user_choice == "2":
+  print(user_text.lower())
+else:
+  print("Choice not valid. Please try again.")
