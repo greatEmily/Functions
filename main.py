@@ -1,5 +1,7 @@
-def uppercase(text):
-  return text.upper()
+wallet = 40
 
+wallet -= 8 #I bought some food
 
-print(uppercase("this is the string"))
+wallet += 40 #payday
+
+# This is a comment
